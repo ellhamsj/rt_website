@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenue Team - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter as a clean, modern font */
+            background-image: url('Gemini_Generated_Image_pasxopasxopasxop.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-attachment: fixed; /* Keep background fixed while scrolling */
+            background-position: center; /* Center the background image */
+        }
+        /* Fallback for Inter font if Google Fonts is not preferred/blocked */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        /* Removed .hero-bg-pattern as it's now handled by the body background and section transparency */
+        .section-title {
+            @apply text-3xl font-bold text-center mb-8 text-gray-800;
+        }
+        .nav-link {
+            @apply px-4 py-2 text-gray-700 hover:text-black transition-colors duration-300;
+        }
+        .cta-button {
+            @apply bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 shadow-md;
+        }
+        .benefit-item {
+            /* Changed to flex-col to stack icon and text vertically, and text-center for alignment */
+            @apply flex flex-col items-center space-y-3 p-4 bg-white/80 rounded-lg shadow; /* Adjusted for transparency */
+        }
+        /* Removed .benefit-icon as image tags will be used directly */
+    </style>
+    </head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="home" class="bg-white/80 shadow-sm sticky top-0 z-50 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center">
+                <img src="Black logo - no background.png" alt="Revenue Team Logo" class="h-10 mr-3">
+                </a>
+            <nav class="hidden md:flex space-x-1">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="help" class="nav-link">Help</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 hover:text-black focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-white/80 shadow-lg backdrop-blur-sm">
+            <a href="#home" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Home</a>
+            <a href="#about" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">About Us</a>
+            <a href="#contact" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Contact</a>
+            <a href="help" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Help</a>
+        </div>
+    </header>
+
+    <section class="bg-white/80 py-20 md:py-32 flex items-center">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Unlock New Revenue Streams.</h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">Innovative solutions for facility providers, coming soon. In today's cashless world, traditional payment methods can limit your potential. We're building something special designed to enhance user convenience and streamline operations for facilities like yours, helping your business thrive.</p>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-12">
+                <div class="benefit-item">
+                    <img src="icon_cashless_convenience.png" alt="Cashless Convenience Icon" class="h-12 w-12 object-contain mx-auto">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Cashless Convenience</h3>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <img src="icon_increased_effeciency.png" alt="Increased Efficiency Icon" class="h-12 w-12 object-contain mx-auto">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Increased Efficiency and Revenue</h3>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <img src="icon_increased_adaptable.png" alt="Scalable and Adaptable Icon" class="h-12 w-12 object-contain mx-auto">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">Scalable and Adaptable</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-24 bg-white/80">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-8">
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="Gemini_Generated_Image_pasxopasxopasxop.jpg" alt="Family camping in New Zealand" class="rounded-lg shadow-lg max-w-full h-auto md:max-w-md">
+            </div>
+            <div class="w-full md:w-1/2">
+                <p class="text-center md:text-left text-gray-700 max-w-3xl mx-auto md:mx-0">
+                    Revenue Team is dedicated to empowering facility providers with smart, user-friendly payment solutions. We understand the unique needs of campgrounds, sports clubs, and other community spaces across New Zealand. Our mission is to bring cutting-edge technology to enhance your services and revenue potential. We believe in simplicity, reliability, and strong partnerships.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-white/80">
+        <div class="container mx-auto px-6">
+            <p class="text-center text-gray-700 mb-10 max-w-2xl mx-auto">Interested in learning more about how Revenue Team can benefit your facility? We'd love to hear from you and discuss your needs. Reach out to Joe for an initial conversation at <a href="mailto:joe@revenueteam.co.nz" class="text-black hover:underline">joe@revenueteam.co.nz</a>.</p>
+            <div class="mt-16 flex flex-wrap justify-center items-center gap-6">
+                <img src="scheme_logos_Visa.png" alt="Visa" class="h-10">
+                <img src="scheme_logos_ApplePay.png" alt="Apple Pay" class="h-10">
+                <img src="scheme_logos_Discover.png" alt="Discover" class="h-10">
+                <img src="scheme_logos_Mastercard.png" alt="Mastercard" class="h-10">
+                <img src="scheme_logos_Google Pay.png" alt="Google Pay" class="h-10">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <img src="Black logo - no background.png" alt="Revenue Team Logo Light" class="h-10 mx-auto mb-4 filter invert brightness-0">
+            <p class="font-semibold text-lg mb-2">Revenue Team</p>
+            <p class="mb-1"><a href="http://www.revenueteam.co.nz" target="_blank" class="hover:text-white">www.revenueteam.co.nz</a></p>
+            <p class="text-sm">&copy; <span id="currentYear"></span> Revenue Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+                // Close mobile menu if open
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+        
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Removed contact form submission handling as the form has been removed
+    </script>
+</body>
+</html>
